@@ -1,7 +1,8 @@
+# erzeugt Executable namens "helloworld" aus dem Source-File helloworld.cpp
 add_executable(helloworld helloworld.cpp)
-#target_link_libraries(helloworld my_own_library)
 
-add_executable(tests tests.cpp)
+# erzeugt Executable namens "summe_1_bis_50" aus dem Source-File summe_1_bis_50.cpp
+add_executable(summe_1_bis_50 summe_1_bis_50.cpp)
 
-# Kommentieren Sie die folgenden Zeilen fuer die Aufgabe `mile_to_kilometer` aus
-#add_executable(mile_to_kilometer mile_to_kilometer.cpp)
+# fuegen Sie für das Erzeugen weiterer Executables Zeilen der Form 'add_executable(TARGET SOURCE_FILE_1 SOURCE_FILE_2 ...) '
+# (CMake Dokumentation: https://cmake.org/cmake/help/latest/command/add_executable.html)
